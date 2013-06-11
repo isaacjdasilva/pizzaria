@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TelaMontagemBasicaActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_tamanho_pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/label_tamanho_pizza"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/radios_tamanho_pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dip"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rd_tamanho_grande"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tamanho_grande"
+                    android:textSize="8dip" />
+
+                <RadioButton
+                    android:id="@+id/rd_tamanho_media"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tamanho_media"
+                    android:textSize="8dip" />
+
+                <RadioButton
+                    android:id="@+id/rd_tamanho_brotinho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tamanho_brotinho"
+                    android:textSize="8dip" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/textView_borda_pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/label_borda_pizza"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/radios_borda_pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dip"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rd_com_borda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/com_borda"
+                    android:textSize="8dip" />
+
+                <RadioButton
+                    android:id="@+id/rd_sem_borda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sem_borda"
+                    android:textSize="8dip" />
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView_massa_pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/label_massa_pizza"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/radios_massa_pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dip"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rd_massa_fina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/massa_fina"
+                    android:textSize="8dip" />
+
+                <RadioButton
+                    android:id="@+id/rd_massa_grossa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/massa_grossa"
+                    android:textSize="8dip" />
+            </RadioGroup>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/botao_tela_montagem_basica_sair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/botao_tela_montagem_basica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/seta_proximo" />
+
+</LinearLayout>
