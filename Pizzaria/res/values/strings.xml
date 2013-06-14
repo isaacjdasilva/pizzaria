@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pizzaria</string>
+    <string name="action_settings">Configurações</string>
+    <string name="nome_item"></string>
+    <string name="valor_item"></string>
+    <string name="descricao_item"></string>
+    <string name="botao_voltar">Voltar</string>
+    <string name="botao_comprar">Comprar</string>
+    <string name="nome_item_detalhe">Nome</string>
+    <string name="valor_item_detalhe">valor</string>
+    <string name="descricao_item_detalhe">descrição</string>
+    <string name="title_activity_tela_principal">Pizzaria</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tela_ingrediente">Escolha os Ingredientes</string>
+    <string name="title_activity_tela_montagem_basica">Monte Sua Pizza</string>
+    <string name="titulo_tela_principal">Tela Principal</string>
+    <string name="tamanho_grande">Grande</string>
+    <string name="tamanho_media">Média</string>
+    <string name="tamanho_brotinho">Brotinho</string>
+    <string name="label_tamanho_pizza">Tamanho</string>
+    <string name="label_borda_pizza">Borda</string>
+    <string name="com_borda">Com Borda</string>
+    <string name="sem_borda">Sem Borda</string>
+    <string name="label_massa_pizza">Massa</string>
+    <string name="massa_fina">Massa Fina</string>
+    <string name="massa_grossa">Massa Grossa</string>
+    <string name="title_activity_tela_inicial">TelaInicialActivity</string>
+    <string name="title_activity_tela_gerencia_cliente">TelaGerenciaClienteActivity</string>
+    <string name="nome">Nome</string>
+    <string name="cpf">Cpf</string>
+    <string name="logradouro">Logradouro</string>
+    <string name="numero">Número</string>
+    <string name="complemento">Complemento</string>
+    <string name="cep">CEP</string>
+    <string name="bairro">Bairro</string>
+    <string name="municipio">Município</string>
+    <string name="uf">UF</string>
+    <string name="title_activity_tela_configurar_pagamento">TelaConfigurarPagamentoActivity</string>
+
+</resources>

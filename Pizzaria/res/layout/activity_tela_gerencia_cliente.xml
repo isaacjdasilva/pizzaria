@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    tools:context=".TelaGerenciaClienteActivity" >
+    
+    <TableRow>
+        <TextView android:text="@string/nome"/>
+        <EditText android:id="@+id/nome"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/cpf"/>
+        <EditText android:id="@+id/cpf"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/logradouro"/>
+        <EditText android:id="@+id/logradouro"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/numero"/>
+        <EditText android:id="@+id/numero"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/complemento"/>
+        <EditText android:id="@+id/complemento"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/cep"/>
+        <EditText android:id="@+id/cep"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/bairro"/>
+        <EditText android:id="@+id/bairro"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/municipio"/>
+        <EditText android:id="@+id/municipio"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/uf"/>
+        <EditText android:id="@+id/uf"/>
+    </TableRow>
+	
+    <TableRow>
+        <TextView android:text="Tipo:"/>
+        <RadioGroup android:id="@+id/tipos">
+            <RadioButton android:id="@+id/rodizio"
+                android:text="Rodízio"/>
+            <RadioButton android:id="@+id/fast_food"
+                android:text="Fast Food"/>
+            <RadioButton android:id="@+id/a_domicilio"
+                android:text="A Domicílio"/>
+        </RadioGroup>
+    </TableRow>
+    
+    <Button android:id="@+id/salvar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"/>
+    
+    <ImageButton
+        android:id="@+id/botao_tela_gerencia_cliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/seta_proximo" />
+    
+</TableLayout>
